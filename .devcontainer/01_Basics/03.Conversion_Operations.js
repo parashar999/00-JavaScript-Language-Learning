@@ -7,3 +7,15 @@ console.log(typeof valueInNumber);
 console.log(valueInNumber);
 
 // while conversion to boolean. 1 => true; 0 => false, "" => false, "tarun" => true
+
+let str1="Tarun"
+let str2="Parashar"
+let str3=str1 + " " + str2 // string append operation
+console.log(str3)
+
+
+// return type depends on the type used first
+console.log("1"+2) // string
+console.log(1+"2") // nubmer
+console.log(1+2+"2") // string
+console.log("1"+2+2) // string

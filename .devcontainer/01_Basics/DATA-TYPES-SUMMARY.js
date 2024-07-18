@@ -15,3 +15,8 @@ const myFunction= function()
 }
 
 myFunction();
+
+// +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// Stack Memory :- Used by Primitive data types , You get copy of the data entity
+// Heap Memory :- Non-Primitive , You get reference to the data entity

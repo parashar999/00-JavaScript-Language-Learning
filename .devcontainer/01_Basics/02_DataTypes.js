@@ -17,4 +17,3 @@ console.table([Name , age, check, sym, state, k]);
 console.table([typeof Name , typeof age , typeof check , typeof sym , typeof state , typeof k, typeof 200000000000 ]) // type of null is object, type of undefined is undefined
 // Primitive data types :- String, Int, Boolean , Big , Null, Undefined
 // Non-Primitive data types :- Object, Function
-let symbol = '#' // symbol data type

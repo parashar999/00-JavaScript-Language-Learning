@@ -16,6 +16,13 @@ console.log(str3)
 
 // return type depends on the type used first
 console.log("1"+2) // string
-console.log(1+"2") // nubmer
+console.log(1+"2") // string
+console.log(1+2)// nubmer
 console.log(1+2+"2") // string
 console.log("1"+2+2) // string
+
+console.log(typeof("1"+2))
+console.log(typeof(1+"2"))
+console.log(typeof(1+2))
+console.log(typeof("1"+2+2))
+console.log(typeof(1+2+"2"))

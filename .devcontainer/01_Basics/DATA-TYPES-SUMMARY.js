@@ -14,8 +14,10 @@ const myFunction= function()
     console.log("Hello world")
 }
 
-myFunction();
+myFunction(); 
 
+console.log(myFunction) // function is refrenced here
+console.log(myFunction) // function is called here
 // +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 // Stack Memory :- Used by Primitive data types , You get copy of the data entity

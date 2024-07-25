@@ -66,3 +66,6 @@ arr.forEach((item, index, arr)=>{  // item, index, arr all three come as paramet
 }) 
 
 // Arr of objects are also accessed using forEach Loop
+
+// for of loop is used for array, strings and maps
+// for in loop is used for objects , arrays, strings and maps

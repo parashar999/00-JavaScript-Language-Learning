@@ -15,7 +15,15 @@ console.log(typeof gameName)
 // .slice(start_i,end_i) :- end here is also exclusive
 // .trim() :- Trim the empty space and new line
 // .replace('what to repace', 'with what to replace'):- replace within as string
-// .include('what you want to find is included or not')  
+// .includes('what you want to find is included or not')  
 // .split('seprator',  limit) :- Convert a string into array
 const another = gameName.slice(2,4)
 console.log(another) // Negative input will start from the back side and negative input can not be used in case of substring
+
+/*
+Little on substring vs slice methods of string
+
+substring(start, end): Extracts a part of the string between start and end. Negative indices are treated as 0.
+
+slice(start, end): Extracts a part of the string between start and end. Supports negative indices to reference positions from the end.
+*/
